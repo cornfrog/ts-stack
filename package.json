@@ -1,0 +1,13 @@
+{
+  "name": "ts-stack-ds",
+  "version": "1.0.0",
+  "main": "build/main.js",
+  "author": "cornfrog <thecornfrog@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "clean": "rm -rf build",
+    "build": "tsc",
+    "start": "yarn clean && yarn build && node ."
+  }
+}

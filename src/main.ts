@@ -1,0 +1,1 @@
+console.log(`All set! Edit ./src/main.ts to get started.`);
