@@ -1,1 +1,7 @@
-console.log(`All set! Edit ./src/main.ts to get started.`);
+import MyStack from "./MyStack.js";
+
+const testStack = new MyStack<number>(3);
+console.log(testStack);
+
+testStack.push(0);
+console.log(testStack);
